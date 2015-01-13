@@ -12,7 +12,7 @@
         android:textSize="25dp"
         android:textColor="#fff"
         android:gravity="center"
-        android:text="@string/question_text" />
+        android:text="@+id/question_text_view" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -36,6 +36,30 @@
             android:background="#DFAD45"
             android:layout_margin="10dp"
             android:text="@string/false_button" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#FF5B5D"
+            android:layout_margin="10dp"
+            android:id="@+id/previous_button"
+            android:text="@string/previous_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#FF5B5D"
+            android:layout_margin="10dp"
+            android:id="@+id/next_button"
+            android:text="@string/next_button" />
+
     </LinearLayout>
 
  </LinearLayout>
